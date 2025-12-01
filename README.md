@@ -96,7 +96,7 @@ pywin32>=304
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-repo/windows-drive-cleaner.git
+git clone [https://github.com/your-repo/windows-drive-cleaner](https://github.com/JerryYan-yus/WindowsDriveCleaner).git
 cd windows-drive-cleaner
 
 # 创建虚拟环境（推荐）
