@@ -13,20 +13,6 @@
 
 </div>
 
-## 📋 目录
-
-- [关于项目](#关于项目)
-- [功能特性](#功能特性)
-- [安装说明](#安装说明)
-- [快速开始](#快速开始)
-- [使用指南](#使用指南)
-- [技术架构](#技术架构)
-- [常见问题](#常见问题)
-- [更新日志](#更新日志)
-- [贡献指南](#贡献指南)
-- [许可证](#许可证)
-
----
 
 ## 🎯 关于项目
 
@@ -96,8 +82,8 @@ pywin32>=304
 
 ```bash
 # 克隆仓库
-git clone [https://github.com/your-repo/windows-drive-cleaner](https://github.com/JerryYan-yus/WindowsDriveCleaner).git
-cd windows-drive-cleaner
+git clone https://github.com/JerryYan-yus/WindowsDriveCleaner.git
+cd WindowsDriveCleaner
 
 # 创建虚拟环境（推荐）
 python -m venv venv
